@@ -34,15 +34,15 @@ Making requests:
 
     https://www.papertrail-ai.com/api/authorize.php
 
-    Parameters:
+    Parameters:  
     system   
-            `freeagent  
-            freshbooks  
-            quickbooks  
-            sage_sa  
-            sage_uk  
-            xero  
-            zoho`  
+    ```freeagent  
+    freshbooks  
+    quickbooks  
+    sage_sa  
+    sage_uk  
+    xero  
+	zoho```  
     redirect uri 
 
 2) Get code
