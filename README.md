@@ -1,27 +1,25 @@
 # README #
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
+### papertrail-ai? ###
 
 An API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks. The wrapper also allows for implementation of robotic process automation and machine learning applications and algorithms into these financial applications.
 
-### How do I get set up? ###
+### about papertrail-ai? ###
 
-- The project currently includes the following modules. 
+The project currently includes the following modules. 
 
-- Modules:
-= Annual Financial Statements
-= Bank
-= Consolidations
-= Credit Providers
-= Credit Profile
-= Customers
-= Vendors 
-= General Ledger
-= Tax
-= Robotic Process Automation
-= Machine Learning
+- Annual Financial Statements
+- Bank
+- Consolidations
+- Credit Providers
+- Credit Profile
+- Customers
+- Vendors 
+- General Ledger
+- Tax
+- Excel
+- Robotic Process Automation
+- Machine Learning
 
 The API 
 
@@ -31,53 +29,53 @@ The API
 
 1) Grant authorization
 
-You will be redirected where you will be required to login and grant authorization. 
+	You will be redirected where you will be required to login and grant authorization. 
 
-https://www.papertrail-ai.com/api/authorize.php
+	https://www.papertrail-ai.com/api/authorize.php
 
-Parameters:
-system - system parameters currently accepted
-	freeagent
-	freshbooks
-  	quickbooks
-   	sage_sa 
-  	sage_uk 
-  	xero
-	zoho  
-redirect uri 
+	Parameters:
+	system - system parameters currently accepted
+		freeagent
+		freshbooks
+		quickbooks
+		sage_sa 
+		sage_uk 
+		xero
+		zoho  
+	redirect uri 
 
 2) Get code
 
-Once authorization is granted. A code is submitted back to your redirect uri
+	Once authorization is granted. A code is submitted back to your redirect uri
 
 3) Get access token 
 
-https://www.papertrail-ai.com/api/token.php
+	https://www.papertrail-ai.com/api/token.php
 
 4) Make Api request
 
-Current API requests can be made to the following URI's. Query must be made with module and query name parameter. 
+	Current API requests can be made to the following URI's. Query must be made with module and query name parameter. 
 
-Parameters:
-Module and query parameters currently accepted:
-= bank
-=> bank_list (Provides a list of bank transactions) 
+	Parameters:
+	Module and query parameters currently accepted:
+	- bank
+		=> bank_list (Provides a list of bank transactions) 
 
-= customers
-=> list_customers
-=> list_invoices
+	- customers
+		=> list_customers
+		=> list_invoices
 
-= vendors
-=> list_vendors
-=> list_invoices
+	- vendors
+		=> list_vendors
+		=> list_invoices
 
-= gl
-=> list_gl_transaction
+	- gl
+		=> list_gl_transaction
 
-### Contribution guidelines ###
+### contribution guidelines ###
 
-* Contributors Wanted: Inquire Within. Licence fees from Marketpplace will be shared with contributors.
+Contributors Wanted: Inquire Within. Licence fees from Marketpplace will be shared with contributors.
 
-### Who do I talk to? ###
+### who do I talk to? ###
 
-* Contact me on patrykg@papertrail-ai.com
+Contact me on patrykg@papertrail-ai.com
