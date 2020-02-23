@@ -23,9 +23,9 @@ Project modules:
 
 The API 
 
-- The API is based on the Oauth2 protocal.
-- Drop me a mail with your redirect URI and I will send you a API test key.
-- Making requests:
+	The API is based on the Oauth2 protocal.
+	Drop me a mail with your redirect URI and I will send you a API test key.
+	Making requests:
 
 1) Grant authorization
 
