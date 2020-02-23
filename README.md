@@ -36,13 +36,13 @@ Making requests:
 
     Parameters:
     system - system parameters currently accepted  
-        freeagent  
-        freshbooks  
-        quickbooks  
-        sage_sa  
-        sage_uk  
-        xero  
-        zoho  
+            freeagent  
+            freshbooks  
+            quickbooks  
+            sage_sa  
+            sage_uk  
+            xero  
+            zoho  
     redirect uri 
 
 2) Get code
@@ -71,7 +71,7 @@ Making requests:
 		=> list_invoices (Provides a list of invoices)  	
 
 	- gl  
-		=> list_gl_transaction (Provides a list of general ledger transactions) 
+		=> list_gl_transaction (Provides a list of general ledger transactions)   
 		=> list_gl_accounts (Provides a list of general ledger accounts)
 
 ### Contribution guidelines ###
