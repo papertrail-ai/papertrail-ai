@@ -23,10 +23,10 @@ Project modules:
 
 The API 
 
-    The API is based on the Oauth2 protocal.    
-    Drop me a mail with your redirect URI and I will send you a API test key.  
+The API is based on the Oauth2 protocal.    
+Drop me a mail with your redirect URI and I will send you a API test key.  
     
-    Making requests:
+Making requests:
 
 1) Grant authorization
 
@@ -35,7 +35,7 @@ The API
     https://www.papertrail-ai.com/api/authorize.php
 
     Parameters:
-    system - system parameters currently accepted
+    system - system parameters currently accepted  
         freeagent  
         freshbooks  
         quickbooks  
@@ -58,20 +58,21 @@ The API
 	Current API requests can be made to the following URI's. Query must be made with module and query name parameter. 
 
 	Parameters:
-	Module and query parameters currently accepted:
+	Module and query parameters:
 	- bank  
 		=> bank_list (Provides a list of bank transactions)  
 
 	- customers  
-		=> list_customers  
-		=> list_invoices	
+		=> list_customers (Provides a list of customers)  
+		=> list_invoices (Provides a list of invoices) 	
 
 	- vendors   
-		=> list_vendors  
-		=> list_invoices  	
+		=> list_vendors (Provides a list of vendors)  
+		=> list_invoices (Provides a list of invoices)  	
 
 	- gl  
-		=> list_gl_transaction  
+		=> list_gl_transaction (Provides a list of general ledger transactions) 
+		=> list_gl_accounts (Provides a list of general ledger accounts)
 
 ### Contribution guidelines ###
 
