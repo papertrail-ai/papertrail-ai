@@ -29,20 +29,20 @@ The API
 
 1) Grant authorization
 
-	You will be redirected where you will be required to login and grant authorization. 
+    You will be redirected where you will be required to login and grant authorization. 
 
-	https://www.papertrail-ai.com/api/authorize.php
+    https://www.papertrail-ai.com/api/authorize.php
 
-	Parameters:
-	system - system parameters currently accepted
-		freeagent
-		freshbooks
-		quickbooks
-		sage_sa
-		sage_uk
-		xero
-		zoho  
-	redirect uri 
+    Parameters:
+    system - system parameters currently accepted
+        freeagent
+        freshbooks
+        quickbooks
+        sage_sa
+        sage_uk
+        xero
+        zoho  
+    redirect uri 
 
 2) Get code
 
@@ -59,18 +59,18 @@ The API
 	Parameters:
 	Module and query parameters currently accepted:
 	- bank
-		=>bank_list (Provides a list of bank transactions)
+		=> bank_list (Provides a list of bank transactions)
 
 	- customers
-		=>list_customers
-		=>list_invoices	
+		=> list_customers
+		=> list_invoices	
 
 	- vendors
-		=>list_vendors
-		=>list_invoices	
+		=> list_vendors
+		=> list_invoices	
 
 	- gl
-		=>list_gl_transaction
+		=> list_gl_transaction
 
 ### contribution guidelines ###
 
