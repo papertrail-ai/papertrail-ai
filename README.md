@@ -1,10 +1,10 @@
 # README #
 
-### papertrail-ai? ###
+### Papertrail-ai? ###
 
 An API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks. The wrapper also allows for implementation of robotic process automation and machine learning applications and algorithms into these financial applications.
 
-### about papertrail-ai? ###
+### About papertrail-ai? ###
 
 Project modules: 
 
@@ -23,9 +23,10 @@ Project modules:
 
 The API 
 
-	The API is based on the Oauth2 protocal.
-	Drop me a mail with your redirect URI and I will send you a API test key.
-	Making requests:
+    The API is based on the Oauth2 protocal.    
+    Drop me a mail with your redirect URI and I will send you a API test key.  
+    
+    Making requests:
 
 1) Grant authorization
 
@@ -35,12 +36,12 @@ The API
 
     Parameters:
     system - system parameters currently accepted
-        freeagent
-        freshbooks
-        quickbooks
-        sage_sa
-        sage_uk
-        xero
+        freeagent  
+        freshbooks  
+        quickbooks  
+        sage_sa  
+        sage_uk  
+        xero  
         zoho  
     redirect uri 
 
@@ -58,24 +59,24 @@ The API
 
 	Parameters:
 	Module and query parameters currently accepted:
-	- bank
-		=> bank_list (Provides a list of bank transactions)
+	- bank  
+		=> bank_list (Provides a list of bank transactions)  
 
-	- customers
-		=> list_customers
+	- customers  
+		=> list_customers  
 		=> list_invoices	
 
-	- vendors
-		=> list_vendors
-		=> list_invoices	
+	- vendors   
+		=> list_vendors  
+		=> list_invoices  	
 
-	- gl
-		=> list_gl_transaction
+	- gl  
+		=> list_gl_transaction  
 
-### contribution guidelines ###
+### Contribution guidelines ###
 
 Contributors Wanted: Inquire Within. Licence fees from Marketpplace will be shared with contributors.
 
-### who do I talk to? ###
+### Who do I talk to? ###
 
 Contact me on patrykg@papertrail-ai.com
