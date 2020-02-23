@@ -35,7 +35,7 @@ Making requests:
     https://www.papertrail-ai.com/api/authorize.php
 
     Parameters:  
-    system   
+    system
     ```
     freeagent  
     freshbooks  
@@ -43,7 +43,7 @@ Making requests:
     sage_sa  
     sage_uk  
     xero  
-	zoho   
+	zoho
 	```
     redirect uri 
 
