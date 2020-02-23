@@ -6,7 +6,7 @@ An API wrapper specifically for financial systems (invoicing, accounting, payrol
 
 ### about papertrail-ai? ###
 
-The project currently includes the following modules. 
+Project modules: 
 
 - Annual Financial Statements
 - Bank
@@ -38,8 +38,8 @@ The API
 		freeagent
 		freshbooks
 		quickbooks
-		sage_sa 
-		sage_uk 
+		sage_sa
+		sage_uk
 		xero
 		zoho  
 	redirect uri 
@@ -59,18 +59,18 @@ The API
 	Parameters:
 	Module and query parameters currently accepted:
 	- bank
-		=> bank_list (Provides a list of bank transactions) 
+		=>bank_list (Provides a list of bank transactions)
 
 	- customers
-		=> list_customers
-		=> list_invoices
+		=>list_customers
+		=>list_invoices	
 
 	- vendors
-		=> list_vendors
-		=> list_invoices
+		=>list_vendors
+		=>list_invoices	
 
 	- gl
-		=> list_gl_transaction
+		=>list_gl_transaction
 
 ### contribution guidelines ###
 
