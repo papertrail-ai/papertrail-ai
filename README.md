@@ -35,14 +35,14 @@ Making requests:
     https://www.papertrail-ai.com/api/authorize.php
 
     Parameters:
-    system - system parameters currently accepted  
-            freeagent  
+    system   
+            'freeagent  
             freshbooks  
             quickbooks  
             sage_sa  
             sage_uk  
             xero  
-            zoho  
+            zoho'  
     redirect uri 
 
 2) Get code
@@ -59,20 +59,20 @@ Making requests:
 
 	Parameters:
 	Module and query parameters:
-	- bank  
-		=> bank_list (Provides a list of bank transactions)  
+	- 'bank'  
+		'bank_list' (Provides a list of bank transactions)  
 
-	- customers  
-		=> list_customers (Provides a list of customers)  
-		=> list_invoices (Provides a list of invoices) 	
+	- 'customers'  
+		'list_customers' (Provides a list of customers)  
+		'list_invoices' (Provides a list of invoices) 	
 
-	- vendors   
-		=> list_vendors (Provides a list of vendors)  
-		=> list_invoices (Provides a list of invoices)  	
+	- 'vendors'   
+		'list_vendors' (Provides a list of vendors)  
+		'list_invoices' (Provides a list of invoices)  	
 
-	- gl  
-		=> list_gl_transaction (Provides a list of general ledger transactions)   
-		=> list_gl_accounts (Provides a list of general ledger accounts)
+	- 'gl'  
+		'list_gl_transaction' (Provides a list of general ledger transactions)   
+		'list_gl_accounts' (Provides a list of general ledger accounts)
 
 ### Contribution guidelines ###
 
