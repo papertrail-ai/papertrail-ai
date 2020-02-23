@@ -29,9 +29,11 @@ The API
 - Drop me a mail with your redirect URI and I will send you a API test key.
 - Making requests:
 
-1) Get access token 
+1) Grant authorization
 
-https://www.papertrail-ai.com/api/token.php
+You will be redirected where you will be required to login and grant authorization. 
+
+https://www.papertrail-ai.com/api/authorize.php
 
 Parameters:
 system - system parameters currently accepted
@@ -44,13 +46,13 @@ system - system parameters currently accepted
 	zoho  
 redirect uri 
 
-2) Grant authorization
-
-You will be redirected where you will be required to login and grant authorization. 
-
-3) Get code
+2) Get code
 
 Once authorization is granted. A code is submitted back to your redirect uri
+
+3) Get access token 
+
+https://www.papertrail-ai.com/api/token.php
 
 4) Make Api request
 
