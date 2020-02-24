@@ -62,19 +62,26 @@ Making requests:
 	Parameters:
 	Module and query parameters:
 	- `bank`  
-		`bank_list` (Provides a list of bank transactions)  
+		`bank_list`				(Provides a list of bank transactions)
+	    `bank_accounts_list`	(Provides a list of bank accounts)
 
 	- `customers`  
-		`list_customers` (Provides a list of customers)  
-		`list_invoices` (Provides a list of invoices) 	
+		`list_customers`		(Provides a list of customers)  
+		`list_invoices`			(Provides a list of invoices) 
+		`invoice_detail`		(Provides detailed single invoice)
+		`create_customer`		(Creates a new customer account)
+		`create_invoice`		(Creates a sales invoice)
+		`create_credit_note`	(Creates a sales credit note)
 
 	- `vendors`   
-		`list_vendors` (Provides a list of vendors)  
-		`list_invoices` (Provides a list of invoices)  	
+		`list_vendors`			(Provides a list of vendors)  
+		`list_invoices`			(Provides a list of invoices)
+		`create_vendor`			(Creates a new vendor account)
+		`create_invoice`		(Creates a purchase invoice)	
 
 	- `gl`  
-		`list_gl_transaction` (Provides a list of general ledger transactions)   
-		`list_gl_accounts` (Provides a list of general ledger accounts)
+		`list_gl_transaction`	(Provides a list of general ledger transactions)   
+		`list_gl_accounts`		(Provides a list of general ledger accounts)
 
 ### Contribution guidelines ###
 
