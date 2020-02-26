@@ -28,9 +28,9 @@ Drop me a mail with your redirect URI and client id and I will send you a API te
     
 Making requests:
 
-1) Grant authorization
+1) Get authorization
 
-    Make a post request to the following page to grant authoization.
+    Make a post request to the following page to get authorization.
     https://www.papertrail-ai.com/api/authorize.php
 
     Parameters:  
