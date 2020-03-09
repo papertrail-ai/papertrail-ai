@@ -95,10 +95,10 @@ Making requests:
 		`list_gl_transaction`	(Provides a list of general ledger transactions Sales, Expenses, Profit, Assets and Liabilities)  
 		`list_gl_accounts`		(Provides a list of general ledger accounts. Sales, Expenses, Profit, Assets and Liabilities)  
 
-	- `employees : api_employees.php`  
+	- `employees : api_employees.php`	(In development)  
 		`number_employees`	(Provides number of employees)  
 
-	- `company : api_company.php`  
+	- `company : api_company.php`	(In development)  
 		`co_details`	(Provides company name, physical address, phone)  
 
 ### Contribution guidelines ###
