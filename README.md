@@ -20,6 +20,7 @@ Project modules:
 - Excel
 - Robotic Process Automation
 - Machine Learning
+- Data Visualization
 
 The API 
 
@@ -94,13 +95,13 @@ Making requests:
 		`list_gl_transaction`	(Provides a list of general ledger transactions Sales, Expenses, Profit, Assets and Liabilities)  
 		`list_gl_accounts`		(Provides a list of general ledger accounts. Sales, Expenses, Profit, Assets and Liabilities)  
 
-The following queries are still in development:
+The following queries are still in development:  
 
 	- `employees : api_employees.php`  
-		`number_employees`	(Provides number of employees)    
+		`number_employees`	(Provides number of employees)  
 
 	- `company : api_company.php`  
-		`co_details`	(Provides company name, physical address, phone)    
+		`co_details`	(Provides company name, physical address, phone)  
 
 ### Contribution guidelines ###
 
