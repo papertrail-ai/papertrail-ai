@@ -79,7 +79,6 @@ Making requests:
 	    `bank_accounts_list`	(Provides a list of bank accounts)  
 
 	- `customers : api_customers.php`  
-		`list_customers`		(Provides a list of customers)  
 		`list_invoices`			(Provides a list of invoices)  
 		`invoice_detail`		(Provides detailed single invoice)  
 		`create_customer`		(Creates a new customer account)  
@@ -87,14 +86,21 @@ Making requests:
 		`create_credit_note`	(Creates a sales credit note)  
 
 	- `vendors : api_vendors.php`   
-		`list_vendors`			(Provides a list of vendors)  
 		`list_invoices`			(Provides a list of invoices)  
 		`create_vendor`			(Creates a new vendor account)  
 		`create_invoice`		(Creates a purchase invoice)  	
 
 	- `gl : api_gl.php`  
-		`list_gl_transaction`	(Provides a list of general ledger transactions)  
-		`list_gl_accounts`		(Provides a list of general ledger accounts)  
+		`list_gl_transaction`	(Provides a list of general ledger transactions Sales, Expenses, Profit, Assets and Liabilities)  
+		`list_gl_accounts`		(Provides a list of general ledger accounts. Sales, Expenses, Profit, Assets and Liabilities)  
+
+The following queries are still in development:
+
+	- `employees : api_employees.php`  
+		`number_employees`	(Provides number of employees)    
+
+	- `company : api_company.php`  
+		`co_details`	(Provides company name, physical address, phone)    
 
 ### Contribution guidelines ###
 
