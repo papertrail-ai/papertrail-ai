@@ -75,6 +75,8 @@ Making requests:
 	zoho
 	```
 
+	Query
+
 	- `bank : api_bank.php`  
 		`bank_list`				(Provides a list of bank transactions)  
 	    `bank_accounts_list`	(Provides a list of bank accounts)  
