@@ -2,7 +2,11 @@
 
 ### Papertrail-ai? ###
 
-An API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks. The wrapper also allows for implementation of robotic process automation and machine learning applications and algorithms into these financial applications.
+A set of tools for automating financial processes.
+
+Papertrail includes an API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks. 
+
+The tools allow for implementation of robotic process automation and machine learning applications and algorithms into these financial applications.
 
 ### About papertrail-ai? ###
 
