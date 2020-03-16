@@ -1,5 +1,7 @@
 # README #
 
+[![Join the chat at https://gitter.im/papertrailai/community](https://badges.gitter.im/papertrailai/community.svg)](https://gitter.im/papertrailai/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ### Papertrail-ai? ###
 
 Papertrail-ai is a set of tools for automating financial processes.
