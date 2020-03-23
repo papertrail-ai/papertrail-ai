@@ -112,7 +112,7 @@ Making requests:
 
 ### Contribution guidelines ###
 
-Contributors Wanted: Inquire Within. Licence fees from Marketplace will be shared with contributors.
+Contributors Wanted: Inquire within. Licence fees from Marketplace will be shared with contributors.
 
 Join our communities on the following channels:    
 http://papertrail-ai.slack.com     
