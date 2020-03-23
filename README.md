@@ -12,6 +12,7 @@ The Papertrail-ai tools allow for implementation of robotic process automation, 
 
 Project modules: 
 
+- Excel / Google Sheets
 - Annual Financial Statements
 - Bank
 - Consolidations
@@ -113,9 +114,9 @@ Making requests:
 
 Contributors Wanted: Inquire Within. Licence fees from Marketplace will be shared with contributors.
 
-Join our communities on the following channels:
-http://papertrail-ai.slack.com 
-https://gitter.im/papertrailai/
+Join our communities on the following channels:    
+http://papertrail-ai.slack.com     
+https://gitter.im/papertrailai/    
 
 ### Who do I talk to? ###
 
