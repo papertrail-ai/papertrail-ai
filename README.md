@@ -2,13 +2,13 @@
 
 ### Papertrail-ai? ###
 
-Papertrail-ai is a set of tools for automating financial processes.
+Papertrail-ai is a set of tools and marketplace for automating financial processes.
 
-Papertrail-ai includes an API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent and QuickBooks. 
+Papertrail-ai includes an API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks and Syspro. 
 
 The Papertrail-ai tools allow for implementation of robotic process automation, machine learning applications and algorithms into these financial applications.
 
-### About papertrail-ai? ###
+### About papertrail-ai ###
 
 Project modules: 
 
@@ -16,17 +16,19 @@ Project modules:
 - Bank
 - Consolidations
 - Credit Providers
-- Credit Profile
+- Ratio Analysis
 - Customers
 - Vendors 
+- Inventory
 - General Ledger
 - Tax
-- Excel
-- Robotic Process Automation
-- Machine Learning
+- Fraud
+- Leases
+- Forecasting
+- Valuations
 - Data Visualization
 
-The API 
+### The API ###
 
 The API is based on the Oauth2 protocal.    
 Drop me a mail with your redirect URI and client id and I will send you a API test key.  
@@ -110,6 +112,10 @@ Making requests:
 ### Contribution guidelines ###
 
 Contributors Wanted: Inquire Within. Licence fees from Marketplace will be shared with contributors.
+
+Join our communities on the following channels:
+http://papertrail-ai.slack.com 
+https://gitter.im/papertrailai/
 
 ### Who do I talk to? ###
 
