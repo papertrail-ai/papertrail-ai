@@ -1,12 +1,10 @@
 # README #
 
-[![Join the chat at https://gitter.im/papertrailai/community](https://badges.gitter.im/papertrailai/community.svg)](https://gitter.im/papertrailai/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
 ### Papertrail-ai? ###
 
 Papertrail-ai is an enterprise grade set of tools and marketplace for automating financial processes.
 
-Papertrail-ai includes an API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks and Syspro. 
+Papertrail-ai includes an API wrapper specifically for financial systems (invoicing, accounting, payroll, and ERP systems). Connect data between organizations, processes and automate functions across financial systems. Current integrations include Xero, Sage, Zoho, FreshBooks, FreeAgent, QuickBooks, Wave and Syspro. 
 
 The Papertrail-ai tools allow for implementation of robotic process automation, machine learning applications and algorithms into these financial applications.
 
@@ -119,6 +117,8 @@ Contributors Wanted: Inquire within. Licence fees from Marketplace will be share
 Join our communities on the following channels:    
 http://papertrail-ai.slack.com     
 https://gitter.im/papertrailai/    
+
+[![Join the chat at https://gitter.im/papertrailai/community](https://badges.gitter.im/papertrailai/community.svg)](https://gitter.im/papertrailai/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ### Who do I talk to? ###
 
