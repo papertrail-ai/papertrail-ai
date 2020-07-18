@@ -100,22 +100,22 @@ Making requests:
 		`create_vendor`			(Creates a new vendor account)  
 		`create_invoice`		(Creates a purchase invoice)  	
 
-	- `gl : api_gl.php`  
+	- `gl : api_gl.php`   
 		`list_gl_transaction`	(Provides a list of general ledger transactions Sales, Expenses, Profit, Assets and Liabilities)  
 		`list_gl_accounts`		(Provides a list of general ledger accounts. Sales, Expenses, Profit, Assets and Liabilities)  
 
 	- `accounts : api_accounts.php`   
-		`account_create`		(Creates a general ledger account) 
-		`account_update`		(Updates a general ledger account)
-		`account_delete`		(Delete a general ledger account)
+		`account_create`		(Creates a general ledger account)   
+		`account_update`		(Updates a general ledger account)   
+		`account_delete`		(Delete a general ledger account)   
 
 	- `reports : api_reports.php`   
-		`trial_balance`			(Generates a trial balance)
-		`income_statement`		(Generates a income statement)
-		`balance_sheet`			(Generates a balance sheet)
-		`cash_flow`				(Generates a cash flow)
+		`trial_balance`			(Generates a trial balance)   
+		`income_statement`		(Generates a income statement)  
+		`balance_sheet`			(Generates a balance sheet)   
+		`cash_flow`				(Generates a cash flow)   
  
-	- `company : api_company.php`	 
+	- `company : api_company.php`    
 		`co_details`			(Provides company name, physical address, phone)  
 
 ### Contribution guidelines ###
