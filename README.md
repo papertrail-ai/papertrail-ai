@@ -85,18 +85,20 @@ Making requests:
 	Query
 
 	- `bank : api_bank.php`  
-		`bank_list`				(Provides a list of bank transactions)  
-	    `bank_accounts_list`	(Provides a list of bank accounts)  
+		`bank_list`				(List of bank transactions)  
+	    `bank_accounts_list`	(List of bank accounts)  
 
 	- `customers : api_customers.php`  
-		`list_invoices`			(Provides a list of invoices)  
+		`list_customers`		(Lists customers)  
+		`list_invoices`			(List of customer invoices)  
 		`invoice_detail`		(Provides detailed single invoice)  
 		`create_customer`		(Creates a new customer account)  
 		`create_invoice`		(Creates a sales invoice)  
 		`create_credit_note`	(Creates a sales credit note)  
 
 	- `vendors : api_vendors.php`   
-		`list_invoices`			(Provides a list of invoices)  
+		`list_vendors`			(Lists vendors)  
+		`list_invoices`			(List of vendor invoices)  
 		`create_vendor`			(Creates a new vendor account)  
 		`create_invoice`		(Creates a purchase invoice)  	
 
