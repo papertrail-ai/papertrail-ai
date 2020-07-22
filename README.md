@@ -119,6 +119,7 @@ Making requests:
  
 	- `company : api_company.php`    
 		`co_details`			(Provides company name, physical address, phone)  
+		`users`					(Provides company name, physical address, phone)  
 
 ### Contribution guidelines ###
 
